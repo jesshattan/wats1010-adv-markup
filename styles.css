@@ -1,1 +1,134 @@
-/* Styles for the Advanced Markup assignment. */
+body {
+	background-color: #EDEBE8;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+.top-nav {
+	background-color: #63AFAE;
+	margin: 20px;
+	padding: 20px;
+}
+
+.top-nav li {
+	padding: 20px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+a.active {
+	font-weight: bold;
+}
+
+#sidebar {
+	text-align: center;
+	width: 250px;
+	float: right;
+	background: #F17F51;
+	margin: 20px;
+	padding: 20px;
+	position: absolute;
+	top: 150px;
+	right: 20px;
+	border: 1px dashed black;
+}
+
+aside#sidebar ul li{
+	list-style: none;
+	display: inline;
+}
+
+#content {
+	float: left;
+	width: 750px;
+}
+
+p.bio-photo img{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+p.bio-photo{
+	text-align: center;
+	font-size: smaller;
+	float: right;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+table caption {
+	border: 1px solid black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+table#selected_works {
+	float: left;
+	width: 400px;
+	border: 1px solid black;
+}
+
+table#selected_works tr, th, td{
+	border: 1px solid black;
+	text-align: left;
+}
+
+.poem {
+	border: 3px solid black;
+	list-style: none;
+	width: 325px;
+	margin: 30px;
+	padding: 20px;
+}
+
+body {
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom-nav{
+	margin: 20px;
+	padding: 10px;
+}
+
+.bibliography{
+	list-style: none;
+}
+
+footer {
+	clear: both;
+}
+
+.selectedworks { 
+	border-collapse: collapse;
+}
+
+.selectedworks th, .selectedworks td { 
+	padding: 0.5em; 
+}
+
+.selectedworks { 
+	border: 1px solid #FFEECA; 
+}
+
+.selectedworks th, .selectedworks td { 
+	border: 1px dotted #FFEECA; 
+}
+
+.selectedworks th[scope=col] {
+  border-bottom: 2px solid #FFEECA;
+  border-right: 2px solid #FFEECA;
+}
+
+.selectedworks th+th[scope=col] { 
+	border-right: 1px dotted #FFEECA; }
